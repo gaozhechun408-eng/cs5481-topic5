@@ -1,0 +1,14 @@
+corpus:
+  source: qdrant_docs
+  version: "2026-11"
+
+embedding:
+  model: BAAI/bge-small-en-v1.5
+
+qdrant:
+  mode: local
+  path: ./qdrant_data
+  collection: qdrant_docs
+
+retrieval:
+  top_k: 5
